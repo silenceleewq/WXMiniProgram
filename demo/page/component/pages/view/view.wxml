@@ -37,8 +37,8 @@
       </view>
     </view>
   </view>
-  <view>{{lrq}}</view>
-  <view wx:for="{{[zero, 1, 2, 3, 4]}}">{{item}}</view>
+  <view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
+  <!--<view wx:for="{{[zero, 1, 2, 3, 4]}}">{{item}}</view>-->
   <!--wx:if : 在框架中，我们用 wx:if="{{condition}}" 来判断是否需要渲染该代码块：-->
   <view wx:if = "{{condition}}"> true </view>
   <!--block wx:if-->
